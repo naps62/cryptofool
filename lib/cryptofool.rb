@@ -3,6 +3,7 @@ module Cryptofool
   WEI = 10**18
 end
 
-require "config"
-require "apis"
-require "apis/coin_market_cap"
+require "cryptofool/config"
+require "cryptofool/apis"
+require "cryptofool/apis/coin_market_cap"
+require "cryptofool/cli"

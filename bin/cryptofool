@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+$LOAD_PATH.unshift(File.join(File.expand_path(File.dirname(__FILE__)), "..", "lib"))
+
+cmd = ARGV.shift
+
+require "bitfinex"
+require "rubygems"
+require "bundler"
+require "cryptofool"
+Cryptofool::CLI.new.public_send(cmd, ARGV)
