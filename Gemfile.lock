@@ -1,0 +1,19 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    blanket_wrapper (3.0.2)
+      httparty
+      recursive-open-struct
+    httparty (0.15.6)
+      multi_xml (>= 0.5.2)
+    multi_xml (0.6.0)
+    recursive-open-struct (1.0.5)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  blanket_wrapper
+
+BUNDLED WITH
+   1.15.4

@@ -6,14 +6,11 @@ A set of foolish scripts to get info on Cryptocurrencies exchange rates
 
 Yep. Another one.
 
-
 ## What does this do exactly?
 
 Currently not much:
 
-* get exchange rates from coinmarketcap.com, and present them in a UNIX'able way
-    (as you, you can easily `grep` and `cut` the results to incorporate in your
-    shell somehow)
+* `bin/exchange-rates` gets rates from coinmarketcap.com, and present them in a UNIX'able way.
 
 ## But really, why?
 
