@@ -5,5 +5,6 @@ end
 
 require "cryptofool/config"
 require "cryptofool/apis"
-require "cryptofool/apis/coin_market_cap"
+require "cryptofool/converter"
+require "cryptofool/normalizer"
 require "cryptofool/cli"
